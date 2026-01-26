@@ -7,25 +7,19 @@
 
 ### Basic Scan
 ```bash
-nmap -sC -sV <target>
+nmap -n -sT -A -Pn <target>
 ````
 
-### Full TCP Scan
+### Full Scan
 
 ```bash
-nmap -p- -sS -sV <target>
+nmap -n -sT -p- -T4 -Pn <target>
 ```
 
 ### UDP Scan
 
 ```bash
-nmap -sU --top-ports 100 <target>
-```
-
-#### Use if host blocks ICMP / appears down
-
-```bash
-nmap -Pn <target>
+nmap -n -sU --top-ports 1000 <target>
 ```
 
 </details>
