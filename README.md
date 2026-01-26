@@ -1,5 +1,4 @@
-<details>
-  <summary><strong>Reconnaissance</strong></summary>
+## Reconnaissance
 
   <details>
     <summary>Nmap</summary>
