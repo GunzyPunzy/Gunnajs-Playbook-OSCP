@@ -5,42 +5,32 @@
 <details>
   <summary><strong>Nmap</strong></summary>
 
-  <details>
-    <summary>Basic Scan</summary>
+### Basic Scan
 
 ```bash
 nmap -sC -sV <target>
 ````
 
-  </details>
 
-  <details>
-    <summary>Full TCP Scan</summary>
+
+### Full TCP Scan
 
 ```bash
 nmap -p- -sS -sV <target>
 ```
 
-  </details>
-
-  <details>
-    <summary>UDP Scan</summary>
+### UDP Scan
 
 ```bash
 nmap -sU --top-ports 100 <target>
 ```
-
-  </details>
 
 ```bash
 # Use if host blocks ICMP / appears down
 nmap -Pn <target>
 ```
 
-</details>
-
-<details>
-  <summary><strong>Banner Grabbing</strong></summary>
+### Banner Grabbing
 
 ```bash
 nc <target> <port>
@@ -49,11 +39,7 @@ nc <target> <port>
 ```bash
 version
 ```
-
-</details>
-
-<details>
-  <summary><strong>enum4linux</strong></summary>
+### enum4linux
 
 ```bash
 enum4linux -a <target>
