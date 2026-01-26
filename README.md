@@ -4,7 +4,7 @@
 </details>
 
 <details>
-  <summary><strong>Enumeration</strong></summary>
+  <summary><strong>Services</strong></summary>
 
 </details>
 
