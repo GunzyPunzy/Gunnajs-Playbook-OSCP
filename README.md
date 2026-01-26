@@ -6,7 +6,6 @@
   <summary><strong>Nmap</strong></summary>
 
 ### Basic Scan
-
 ```bash
 nmap -sC -sV <target>
 ````
@@ -22,29 +21,37 @@ nmap -p- -sS -sV <target>
 ```bash
 nmap -sU --top-ports 100 <target>
 ```
+
 #### Use if host blocks ICMP / appears down
+
 ```bash
 nmap -Pn <target>
 ```
+
 </details>
 
-</details> <details> <summary><strong>Banner Grabbing</strong></summary>
+<details>
+  <summary><strong>Banner Grabbing</strong></summary>
 
 ```bash
 nc <target> <port>
 ```
 
 ```bash
-version
+nmap --script banner -p <port> <target>
 ```
+
 </details>
 
-</details> <details> <summary><strong>enum4linux</strong></summary>
+<details>
+  <summary><strong>enum4linux</strong></summary>
 
 ```bash
 enum4linux -a <target>
 ```
+
 </details>
+```
 
 # Exploitation</strong></summary>
 
