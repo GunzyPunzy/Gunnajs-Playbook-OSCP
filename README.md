@@ -16,14 +16,14 @@
 
 </details>
 
-## Exploitation</strong></summary>
+# Exploitation</strong></summary>
 
-## WebApp
+# WebApp
 
-## Pivoting
+# Pivoting
 
-## File Transfers
+# File Transfers
 
-## Windows 
+# Windows 
 
-## Linux
+# Linux
