@@ -22,9 +22,8 @@ nmap -p- -sS -sV <target>
 ```bash
 nmap -sU --top-ports 100 <target>
 ```
-
+#### Use if host blocks ICMP / appears down
 ```bash
-# Use if host blocks ICMP / appears down
 nmap -Pn <target>
 ```
 </details>
