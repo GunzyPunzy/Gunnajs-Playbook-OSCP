@@ -24,21 +24,11 @@
 </details>
 
 <details>
-  <summary><strong>Windows Exploit</strong></summary>
+  <summary><strong>Windows</strong></summary>
 
 </details>
 
 <details>
-  <summary><strong>Windows Privilege Escalation</strong></summary>
-
-</details>
-
-<details>
-  <summary><strong>Linux Exploit</strong></summary>
-
-</details>
-
-<details>
-  <summary><strong>Linux Privilege Escalation</strong></summary>
+  <summary><strong>Linux</strong></summary>
 
 </details>
