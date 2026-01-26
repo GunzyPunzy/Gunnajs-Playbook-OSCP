@@ -1,4 +1,5 @@
-![alt text](https://github.com/GunzyPunzy/Gunnajs-Playbook-OSCP/anfader-oscp.jpg)
+![alt text](https://github.com/GunzyPunzy/Gunnajs-Playbook-OSCP/blob/main/anfader-oscp.jpg)
+
 # Reconnaissance
 
   <details>
