@@ -6,43 +6,24 @@
   </details>
 
   <details>
+    <summary>Banner Grabbing</summary>
+  </details>
+
+  <details>
     <summary>enum4linux</summary>
 
   </details>
 
-  <details>
-    <summary>Banner Grabbing</summary>
-  </details>
-
 </details>
 
+## Exploitation</strong></summary>
 
-<details>
-  <summary><strong>Exploitation</strong></summary>
+## WebApp
 
-</details>
+## Pivoting
 
-<details>
-  <summary><strong>WebApp</strong></summary>
+## File Transfers
 
-</details>
+## Windows 
 
-<details>
-  <summary><strong>Pivoting</strong></summary>
-
-</details>
-
-<details>
-  <summary><strong>File Transfers</strong></summary>
-
-</details>
-
-<details>
-  <summary><strong>Windows</strong></summary>
-
-</details>
-
-<details>
-  <summary><strong>Linux</strong></summary>
-
-</details>
+## Linux
