@@ -1,8 +1,5 @@
 ![alt text](https://github.com/GunzyPunzy/Gunnajs-Playbook-OSCP/blob/main/anfader-oscp.jpg)
 
-Got you — **clean copy‑paste block**, no commentary, GitHub‑ready.
-
-````md
 # Reconnaissance
 
 <details>
