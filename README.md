@@ -1,7 +1,22 @@
 <details>
   <summary><strong>Reconnaissance</strong></summary>
 
+  <details>
+    <summary>Nmap</summary>
+
+  </details>
+
+  <details>
+    <summary>enum4linux</summary>
+
+  </details>
+
+  <details>
+    <summary>Banner Grabbing</summary>
+  </details>
+
 </details>
+
 
 <details>
   <summary><strong>Exploitation</strong></summary>
