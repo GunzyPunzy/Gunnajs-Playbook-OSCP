@@ -60,7 +60,6 @@ enum4linux -a <target>
 ```
 
 </details>
-```
 
 # Exploitation</strong></summary>
 
