@@ -11,8 +11,6 @@
 nmap -sC -sV <target>
 ````
 
-
-
 ### Full TCP Scan
 
 ```bash
@@ -29,8 +27,9 @@ nmap -sU --top-ports 100 <target>
 # Use if host blocks ICMP / appears down
 nmap -Pn <target>
 ```
+</details>
 
-### Banner Grabbing
+</details> <details> <summary><strong>Banner Grabbing</strong></summary>
 
 ```bash
 nc <target> <port>
@@ -39,12 +38,13 @@ nc <target> <port>
 ```bash
 version
 ```
-### enum4linux
+</details>
+
+</details> <details> <summary><strong>enum4linux</strong></summary>
 
 ```bash
 enum4linux -a <target>
 ```
-
 </details>
 
 # Exploitation</strong></summary>
