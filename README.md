@@ -1,6 +1,6 @@
 ![alt text](https://github.com/GunzyPunzy/Gunnajs-Playbook-OSCP/blob/main/anfader-oscp.jpg)
 
-# Reconnaissance
+# Scanning
 
 <details>
   <summary><strong>Nmap</strong></summary>
@@ -46,9 +46,41 @@ enum4linux -a <target>
 
 </details>
 
-# Exploitation</strong></summary>
+# Enumeration
+
+<details> <summary><strong>FTP</strong></summary>
+
+</details>
+
+<details> <summary><strong>SSH</strong></summary>
+
+</details>
+
+<details> <summary><strong>SMTP</strong></summary>
+
+</details>
+
+<details> <summary><strong>NFS</strong></summary>
+
+</details>
+
+<details> <summary><strong>Databases</strong></summary>
+
+</details>
+
+<details> <summary><strong>SNMP</strong></summary>
+
+</details>
+
+<details> <summary><strong>Joomla</strong></summary>
+
+</details>
 
 # WebApp
+
+<details> <summary><strong>WordPress</strong></summary>
+
+</details>
 
 # Pivoting
 
