@@ -144,4 +144,6 @@ enum4linux -a <target>
 
 # Windows 
 
+# Active Directory
+
 # Linux
