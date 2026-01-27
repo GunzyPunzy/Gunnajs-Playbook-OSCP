@@ -55,6 +55,10 @@ nmap --script banner -p <port> <target>
 
 </details>
 
+<details> <summary><strong>RPC</strong></summary>
+
+</details>
+
 <details> <summary><strong>SNMP</strong></summary>
 
 </details>
