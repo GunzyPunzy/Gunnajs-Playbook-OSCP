@@ -72,13 +72,42 @@ enum4linux -a <target>
 
 </details>
 
+# WebApp
+
+<details>
+  <summary><strong>Content Discovery</strong></summary>
+
+</details>
+
+<details>
+  <summary><strong>File Upload</strong></summary>
+
+</details>
+
+<details>
+  <summary><strong>Local / Remote File Inclusion (LFI / RFI)</strong></summary>
+
+</details>
+
+<details>
+  <summary><strong>Directory Traversal</strong></summary>
+
+</details>
+
+<details>
+  <summary><strong>SQL Injection</strong></summary>
+
+</details>
+
+<details> <summary><strong>WordPress</strong></summary>
+
+</details>
+
 <details> <summary><strong>Joomla</strong></summary>
 
 </details>
 
-# WebApp
-
-<details> <summary><strong>WordPress</strong></summary>
+<details> <summary><strong>Drupala</strong></summary>
 
 </details>
 
