@@ -37,15 +37,6 @@ nmap --script banner -p <port> <target>
 
 </details>
 
-<details>
-  <summary><strong>enum4linux</strong></summary>
-
-```bash
-enum4linux -a <target>
-```
-
-</details>
-
 # Enumeration
 
 <details> <summary><strong>FTP</strong></summary>
@@ -65,6 +56,16 @@ enum4linux -a <target>
 </details>
 
 <details> <summary><strong>SNMP</strong></summary>
+
+</details>
+
+<details>
+  <summary><strong>SMB</strong></summary>
+
+### enum4linux
+```bash
+enum4linux -a <target>
+```
 
 </details>
 
