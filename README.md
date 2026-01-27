@@ -107,7 +107,7 @@ enum4linux -a <target>
 
 </details>
 
-<details> <summary><strong>Drupala</strong></summary>
+<details> <summary><strong>Drupal</strong></summary>
 
 </details>
 
