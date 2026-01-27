@@ -1,6 +1,6 @@
 ![alt text](https://github.com/GunzyPunzy/Gunnajs-Playbook-OSCP/blob/main/anfader-oscp.jpg)
 
-# Scanning
+# Reconnaissance
 
 <details>
   <summary><strong>Nmap</strong></summary>
