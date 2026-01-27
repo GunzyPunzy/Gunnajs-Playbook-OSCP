@@ -64,11 +64,11 @@ enum4linux -a <target>
 
 </details>
 
+<details> <summary><strong>SNMP</strong></summary>
+
 <details> <summary><strong>Databases</strong></summary>
 
 </details>
-
-<details> <summary><strong>SNMP</strong></summary>
 
 </details>
 
