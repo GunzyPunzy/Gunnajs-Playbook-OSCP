@@ -66,9 +66,9 @@ enum4linux -a <target>
 
 <details> <summary><strong>SNMP</strong></summary>
 
-<details> <summary><strong>Databases</strong></summary>
-
 </details>
+
+<details> <summary><strong>Databases</strong></summary>
 
 </details>
 
