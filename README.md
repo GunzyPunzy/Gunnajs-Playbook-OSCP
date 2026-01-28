@@ -76,6 +76,8 @@ nmap --script banner -p <port> <target>
 
 <details>
   <summary><strong>HTTP / HTTPS</strong></summary>
+
+  ### Virtual Hosts
   
 </details>
 
