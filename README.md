@@ -169,7 +169,7 @@ enum4linux -a <target>
 
 </details>
 
-<details> <summary><strong>ftp</strong></summary>
+<details> <summary><strong>FTP</strong></summary>
 
 </details>
 
