@@ -124,17 +124,11 @@ enum4linux -a <target>
 
 <details> <summary><strong>CMS</strong></summary>
 
-<details> <summary><strong>WordPress</strong></summary>
+## WordPress
 
-</details>
+## Joomla
 
-<details> <summary><strong>Joomla</strong></summary>
-
-</details>
-
-<details> <summary><strong>Drupal</strong></summary>
-
-</details>
+## Drupal
 
 </details>
 
