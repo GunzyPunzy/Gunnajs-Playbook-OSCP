@@ -231,7 +231,7 @@ enum4linux -a <target>
 </details>
 
 <details>
-  <summary><strong>Credential Access</strong></summary>
+  <summary><strong>Credential Hunting</strong></summary>
   
 </details>
 
