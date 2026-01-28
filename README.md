@@ -165,7 +165,7 @@ enum4linux -a <target>
 
 # File Transfers
 
-<details> <summary><strong>http</strong></summary>
+<details> <summary><strong>HTTP</strong></summary>
 
 </details>
 
