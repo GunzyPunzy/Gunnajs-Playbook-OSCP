@@ -122,6 +122,8 @@ enum4linux -a <target>
 
 </details>
 
+<details> <summary><strong>CMS</strong></summary>
+
 <details> <summary><strong>WordPress</strong></summary>
 
 </details>
@@ -131,6 +133,8 @@ enum4linux -a <target>
 </details>
 
 <details> <summary><strong>Drupal</strong></summary>
+
+</details>
 
 </details>
 
