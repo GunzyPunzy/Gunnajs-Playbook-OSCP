@@ -1,5 +1,22 @@
 ![alt text](https://github.com/GunzyPunzy/Gunnajs-Playbook-OSCP/blob/main/anfader-oscp.jpg)
 
+# Challenge labs
+<details>
+  <summary><strong>Progress</strong></summary>
+The following challenge labs were completed before the exam, and the notes are based on them.
+- [ ] Challenge 0 - Secura
+- [ ] Challenge 1 - Medtech
+- [ ] Challenge 2 - Relia
+- [ ] Challenge 3 - Skylark
+- [ ] Challenge 4 - OSCP A
+- [ ] Challenge 5 - OSCP B
+- [ ] Challenge 6 - OSCP C
+- [ ] Challenge 7 - Zeus
+- [ ] Challenge 8 - Poseidon
+- [ ] Challenge 9 - Feast
+- [ ] Challenge 10 - Laser
+</details>
+
 # Reconnaissance
 
 <details>
