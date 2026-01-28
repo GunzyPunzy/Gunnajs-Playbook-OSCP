@@ -193,19 +193,21 @@ enum4linux -a <target>
 
 <details>
   <summary><strong>Reverse Shells</strong></summary>
+  
 </details>
 
-<details>
   <summary><strong>Credential Hunting</strong></summary>
+  
 </details>
 
 <details>
   <summary><strong>Privesc</strong></summary>
-
+  
 </details>
 
 <details>
   <summary><strong>Post-Exploitation</strong></summary>
+  
 </details<
 
 # Active Directory
