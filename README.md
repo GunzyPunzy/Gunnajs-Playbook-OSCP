@@ -181,6 +181,10 @@ enum4linux -a <target>
 
 </details>
 
+<details> <summary><strong>SMB</strong></summary>
+
+</details>
+
 <details> <summary><strong>mssql</strong></summary>
 
 </details>
