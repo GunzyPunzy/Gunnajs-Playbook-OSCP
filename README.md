@@ -53,11 +53,11 @@ nc <target> <port>
 nmap --script banner -p <port> <target>
 ```
 
+</details>
+
 <details>
   <summary><strong>DNS</strong></summary>
   
-</details>
-
 </details>
 
 # Enumeration
