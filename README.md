@@ -191,6 +191,28 @@ enum4linux -a <target>
 
 # Windows 
 
+<details>
+  <summary><strong>Credential Hunting</strong></summary>
+</details>
+
+<details>
+  <summary><strong>Privesc</strong></summary>
+
+</details>
+
+<details>
+  <summary><strong>Post-Exploitation</strong></summary>
+</details<
+
 # Active Directory
 
 # Linux
+
+<details>
+  <summary><strong>Credential Hunting</strong></summary>
+</details>
+
+<details>
+  <summary><strong>Privesc</strong></summary>
+
+</details>
