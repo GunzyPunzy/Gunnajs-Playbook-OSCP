@@ -53,6 +53,11 @@ nc <target> <port>
 nmap --script banner -p <port> <target>
 ```
 
+<details>
+  <summary><strong>DNS</strong></summary>
+  
+</details>
+
 </details>
 
 # Enumeration
@@ -67,6 +72,11 @@ nmap --script banner -p <port> <target>
 
 <details> <summary><strong>SMTP</strong></summary>
 
+</details>
+
+<details>
+  <summary><strong>HTTP / HTTPS</strong></summary>
+  
 </details>
 
 <details> <summary><strong>NFS</strong></summary>
@@ -195,6 +205,10 @@ enum4linux -a <target>
 </details>
 
 <details>
+  <summary><strong>Enumeration</strong></summary>
+</details>
+
+<details>
   <summary><strong>Credential Hunting</strong></summary>
   
 </details>
@@ -211,6 +225,16 @@ enum4linux -a <target>
 
 # Active Directory
 
+<details>
+  <summary><strong>Enumeration</strong></summary>
+
+</details>
+
+<details>
+  <summary><strong>Credential Access</strong></summary>
+  
+</details>
+
 # Linux
 
 <details>
@@ -219,6 +243,10 @@ enum4linux -a <target>
 
 <details>
   <summary><strong>TTY / Shell Upgrade</strong></summary>
+</details>
+
+<details>
+  <summary><strong>Enumeration</strong></summary>
 </details>
 
 <details>
