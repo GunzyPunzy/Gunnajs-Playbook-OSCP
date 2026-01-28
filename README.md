@@ -60,7 +60,7 @@ nmap --script banner -p <port> <target>
   
 </details>
 
-# Enumeration
+# Services
 
 <details> <summary><strong>FTP</strong></summary>
 
