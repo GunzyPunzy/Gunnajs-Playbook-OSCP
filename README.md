@@ -103,7 +103,7 @@ enum4linux -a <target>
 
 </details>
 
-<details> <summary><strong>Databases</strong></summary>
+<details> <summary><strong>SQL</strong></summary>
 
 </details>
 
