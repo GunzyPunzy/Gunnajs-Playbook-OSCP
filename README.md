@@ -209,7 +209,7 @@ enum4linux -a <target>
 <details>
   <summary><strong>Post-Exploitation</strong></summary>
   
-</details<
+</details>
 
 # Active Directory
 
