@@ -192,6 +192,10 @@ enum4linux -a <target>
 # Windows 
 
 <details>
+  <summary><strong>Reverse Shells</strong></summary>
+</details>
+
+<details>
   <summary><strong>Credential Hunting</strong></summary>
 </details>
 
@@ -207,6 +211,14 @@ enum4linux -a <target>
 # Active Directory
 
 # Linux
+
+<details>
+  <summary><strong>Reverse Shells</strong></summary>
+</details>
+
+<details>
+  <summary><strong>TTY / Shell Upgrade</strong></summary>
+</details>
 
 <details>
   <summary><strong>Credential Hunting</strong></summary>
