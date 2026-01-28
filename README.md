@@ -3,7 +3,8 @@
 # Challenge labs
 <details>
   <summary><strong>Progress</strong></summary>
-The following challenge labs were completed before the exam, and the notes are based on them.
+
+## The following challenge labs were completed before the exam, and the notes are based on them.
 - [ ] Challenge 0 - Secura
 - [ ] Challenge 1 - Medtech
 - [ ] Challenge 2 - Relia
