@@ -107,6 +107,14 @@ enum4linux -a <target>
 
 </details>
 
+# Finding Exploits
+
+</details>
+
+<details> <summary><strong>searchsploit</strong></summary>
+
+</details>
+
 # WebApp
 
 <details>
