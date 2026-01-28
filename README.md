@@ -165,6 +165,26 @@ enum4linux -a <target>
 
 # File Transfers
 
+<details> <summary><strong>http</strong></summary>
+
+</details>
+
+<details> <summary><strong>ftp</strong></summary>
+
+</details>
+
+<details> <summary><strong>SSH</strong></summary>
+
+</details>
+
+<details> <summary><strong>evil-winrm</strong></summary>
+
+</details>
+
+<details> <summary><strong>mssql</strong></summary>
+
+</details>
+
 # Windows 
 
 # Active Directory
