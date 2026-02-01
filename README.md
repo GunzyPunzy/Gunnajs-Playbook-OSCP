@@ -129,13 +129,22 @@ nmap -p 2049 -sV --script=nfs-showmount <IP>
 
 ### List exported shares
 ```bash
-showmount -e <IP>
+netexec nfs <ip> --shares
 ```
 
-Mount NFS share
+### List files on NFS share
 ```bash
-mkdir /tmp/nfs
-mount -t nfs <IP>:/<share> /tmp/nfs
+netexec nfs <ip> --enum-shares
+```
+
+### Download file
+```bash
+netexec nfs <ip> --share --get-file /share_path/<file> <file>
+```
+
+### Upload file
+```bash
+netexec nfs <ip> --share --put-file <file> /share_path/
 ```
 
 </details>
@@ -178,12 +187,22 @@ enum4linux -a <target>
 
 ### NetExec list shares
 ```bash
-netexec smb <target> -u <username -p <password> --shares
+netexec smb <target> -u <username -p <password> --local-auth --shares
+```
+
+### Mount share
+```shell
+sudo mount.cifs <//ip/folder> <./folder> -o user=<username>,password=<password>,dom=<AD_domain>
+```
+
+### Unmount share
+```shell
+sudo umount <./folder>
 ```
 
 ### NetExec list users
 ```bash
-netexec smb <target> -u <username -p <password> --users
+netexec smb <target> -u <username -p <password> --local-auth --users
 ```
 
 </details>
