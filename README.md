@@ -80,16 +80,6 @@ nmap --script banner -p <port> <target>
 ftp <IP>
 ```
 
-### Download file
-```bash
-get <file>
-```
-
-### Upload file
-```bash
-put <file>
-```
-
 ### Brute force
 ```bash
 hydra -L users.txt -P passwords.txt <IP> ftp
@@ -131,16 +121,6 @@ netexec nfs <ip> --shares
 ### List files on NFS share
 ```bash
 netexec nfs <ip> --enum-shares
-```
-
-### Download file
-```bash
-netexec nfs <ip> --share --get-file /share_path/<file> <file>
-```
-
-### Upload file
-```bash
-netexec nfs <ip> --share --put-file <file> /share_path/
 ```
 
 </details>
@@ -308,10 +288,33 @@ sqlplus <username>/<password>@<IP>/XE
 
 <details> <summary><strong>FTP</strong></summary>
 
+### Download file
+```bash
+get <file>
+```
+
+### Upload file
+```bash
+put <file>
+```
+
 </details>
 
 <details> <summary><strong>SSH</strong></summary>
 
+</details>
+
+<details> <summary><strong>NFS</strong></summary>
+
+### Download file
+```bash
+netexec nfs <ip> --share --get-file /share_path/<file> <file>
+```
+
+### Upload file
+```bash
+netexec nfs <ip> --share --put-file <file> /share_path/
+```
 </details>
 
 <details> <summary><strong>evil-winrm</strong></summary>
