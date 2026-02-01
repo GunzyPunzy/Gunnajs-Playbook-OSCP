@@ -142,6 +142,16 @@ mount -t nfs <IP>:/<share> /tmp/nfs
 
 <details> <summary><strong>RPC</strong></summary>
 
+### Login
+```bash
+rpcclient -U=user $IP
+```
+
+### Anonymous login
+```bash
+rpcclient -U="" $IP
+```
+
 </details>
 
 <details> <summary><strong>SNMP</strong></summary>
