@@ -325,6 +325,14 @@ netexec nfs <ip> --share --put-file <file> /share_path/
 
 </details>
 
+<details> <summary><strong>Linux</strong></summary>
+
+</details>
+
+<details> <summary><strong>Windows</strong></summary>
+
+</details>
+
 # Windows 
 
 <details>
