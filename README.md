@@ -300,10 +300,6 @@ put <file>
 
 </details>
 
-<details> <summary><strong>SSH</strong></summary>
-
-</details>
-
 <details> <summary><strong>NFS</strong></summary>
 
 ### Download file
