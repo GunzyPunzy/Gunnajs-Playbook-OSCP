@@ -120,18 +120,23 @@ hydra -L users.txt -P passwords.txt ssh://<IP>
 
 </details>
 
-<details> <summary><strong>SMTP</strong></summary>
-
-</details>
-
-<details>
-  <summary><strong>HTTP / HTTPS</strong></summary>
-
-  ### Virtual Hosts
-  
-</details>
-
 <details> <summary><strong>NFS</strong></summary>
+
+### Identify NFS service and exports
+```bash
+nmap -p 2049 -sV --script=nfs-showmount <IP>
+```
+
+### List exported shares
+```bash
+showmount -e <IP>
+```
+
+Mount NFS share
+```bash
+mkdir /tmp/nfs
+mount -t nfs <IP>:/<share> /tmp/nfs
+```
 
 </details>
 
