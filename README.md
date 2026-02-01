@@ -146,6 +146,16 @@ mount -t nfs <IP>:/<share> /tmp/nfs
 
 <details> <summary><strong>SNMP</strong></summary>
 
+### Display MIB tree
+```bash
+snmpwalk -v <VERSION_SNMP> -c <COMM_STRING> <IP>
+```
+
+### Extend commands (password reset)
+```bash
+snmpwalk -v X -c public <IP> NET-SNMP-EXTEND-MIB::nsExtendOutputFull
+```
+
 </details>
 
 <details>
