@@ -12,10 +12,6 @@
 - [ ] Challenge 4 - OSCP A
 - [ ] Challenge 5 - OSCP B
 - [ ] Challenge 6 - OSCP C
-- [ ] Challenge 7 - Zeus
-- [ ] Challenge 8 - Poseidon
-- [ ] Challenge 9 - Feast
-- [ ] Challenge 10 - Laser
 </details>
 
 # Reconnaissance
