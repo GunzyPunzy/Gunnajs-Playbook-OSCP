@@ -103,6 +103,21 @@ hydra -L users.txt -P passwords.txt <IP> ftp
 
 <details> <summary><strong>SSH</strong></summary>
 
+### Basic login
+```bash
+ssh <user>@<IP>
+```
+
+### Public key authentication
+```bash
+ssh -i id_rsa <user>@<IP>
+```
+
+### Brute force
+```bash
+hydra -L users.txt -P passwords.txt ssh://<IP>
+```
+
 </details>
 
 <details> <summary><strong>SMTP</strong></summary>
