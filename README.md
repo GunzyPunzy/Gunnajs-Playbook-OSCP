@@ -176,6 +176,16 @@ snmpwalk -v X -c public <IP> NET-SNMP-EXTEND-MIB::nsExtendOutputFull
 enum4linux -a <target>
 ```
 
+### NetExec list shares
+```bash
+netexec smb <target> -u <username -p <password> --shares
+```
+
+### NetExec list users
+```bash
+netexec smb <target> -u <username -p <password> --users
+```
+
 </details>
 
 <details> <summary><strong>SQL</strong></summary>
