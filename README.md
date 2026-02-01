@@ -209,6 +209,25 @@ netexec smb <target> -u <username -p <password> --local-auth --users
 
 <details> <summary><strong>SQL</strong></summary>
 
+### SQLite dump all data
+```bash
+sqlite3 <database>.db .dump
+```
+
+### MySQL login
+```bash
+mysql -h <IP> -u <username>
+```
+
+### MSSQL login
+```bash
+impacket-mssqlclient <username>:<password>@<IP>
+```
+
+### Oracle login
+sqlplus <username>/<password>@<IP>/XE
+
+
 </details>
 
 # Finding Exploits
