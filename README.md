@@ -57,12 +57,47 @@ nmap --script banner -p <port> <target>
 
 <details>
   <summary><strong>DNS</strong></summary>
+
+  **# Basic DNS lookup**
+  ```bash
+  host www.megacorpone.com
+  ```
+
+  ```bash
+  dnsrecon -d hostname.com -t std
+  ```
+  ### Wordlist
+  https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
+
+  ```bash
+  dnsrecon -d hostname.com -D ~/list.txt 
+  ```
   
 </details>
 
 # Services
 
 <details> <summary><strong>FTP</strong></summary>
+
+### Login, use Anonymous for anonymous login
+```bash
+ftp <IP>
+```
+
+### Download file
+```bash
+get <file>
+```
+
+### Upload file
+```bash
+put <file>
+```
+
+### Brute force
+```bash
+hydra -L users.txt -P passwords.txt <IP> ftp
+```
 
 </details>
 
