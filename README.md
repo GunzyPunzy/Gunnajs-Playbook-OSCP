@@ -230,7 +230,9 @@ gobuster dns -d <target>.com -w <subdomains_list>
 ```
 
 ### feroxbuster
+```bash
 feroxbuster -u http://<target> -w <wordlist>
+```
 
 </details>
 
