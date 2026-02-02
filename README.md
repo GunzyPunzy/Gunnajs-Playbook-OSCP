@@ -54,7 +54,7 @@ nmap --script banner -p <port> <target>
 <details>
   <summary><strong>DNS</strong></summary>
 
-  **# Basic DNS lookup**
+  ### Basic DNS lookup
   ```bash
   host www.megacorpone.com
   ```
