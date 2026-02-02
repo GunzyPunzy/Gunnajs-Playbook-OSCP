@@ -219,6 +219,14 @@ sqlplus <username>/<password>@<IP>/XE
 <details>
   <summary><strong>Content Discovery</strong></summary>
 
+### gobuster
+```bash
+gobuster dir -u http://<target> -w <wordlist>
+```
+
+### feroxbuster
+feroxbuster -u http://<target> -w <wordlist>
+
 </details>
 
 <details>
