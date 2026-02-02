@@ -224,7 +224,7 @@ sqlplus <username>/<password>@<IP>/XE
 gobuster dir -u http://<target> -w <wordlist>
 ```
 
-### gobuster subomain
+### gobuster subomains
 ```bash
 gobuster dns -d <target>.com -w <subdomains_list>
 ```
