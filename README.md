@@ -325,7 +325,21 @@ wpscan --url http://<target> --enumerate vp,u,vt,tt --follow-redirection --verbo
 
 ## Joomla
 
+### Droopescan – Scan
+```bash
+droopescan scan joomla --url http://<target>
+```
+
+### Joomla – Brute Force Login
+```bash
+sudo python3 joomla-brute.py -u http://<target>/ -w passwords.txt -usr <username>
+```
+
 ## Drupal
+### Droopescan – Scan
+```bash
+droopescan scan drupal --url http://<target>
+```
 
 </details>
 
