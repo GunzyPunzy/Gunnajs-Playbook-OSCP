@@ -239,6 +239,9 @@ feroxbuster -u http://<target> -w <wordlist>
 <details>
   <summary><strong>File Upload</strong></summary>
 
+  ### webshells
+  https://github.com/tennc/webshell/tree/master/fuzzdb-webshell
+
 </details>
 
 <details>
