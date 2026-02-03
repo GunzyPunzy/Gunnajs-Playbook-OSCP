@@ -639,6 +639,34 @@ netexec smb <target-ip> -u <user> -p <password> -M powershell_history
 <details>
   <summary><strong>Enumeration</strong></summary>
 
+### List readable or writable shares
+```shell
+NetExec smb <target_IP> -u AD_user -p <password> --shares READ,WRITE
+```
+
+### List users
+```shell
+NetExec smb <target_IP> -u AD_user -p <password> --users
+```
+
+### Get membership
+```shell
+bloodyAD -H <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> get membership
+```
+
+Get object info
+
+```shell
+bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> get object <object>
+```
+</details>
+
+### Get writable 
+
+```shell
+bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> get writable
+```
+
 </details>
 
 <details>
