@@ -861,4 +861,9 @@ cat /etc/crontab
 crontab -l
 ```
 
+#### Inspect cron logs
+```shell
+grep "CRON" /var/log/syslog
+```
+
 </details>
