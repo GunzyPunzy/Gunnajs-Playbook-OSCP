@@ -684,7 +684,7 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
 </details>
 
 <details>
-  <summary><strong>Credential Dumping</strong></summary>
+  <summary><strong>Credential Attacks</strong></summary>
   
   ### Dump SAM
   ```shell
