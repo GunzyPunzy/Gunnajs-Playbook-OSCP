@@ -782,13 +782,72 @@ perl -e 'exec "/bin/sh";'
 
 <details>
   <summary><strong>Enumeration</strong></summary>
+
+### Get user info
+```shell
+id
+```
+
+### Operating System 
+```shell
+lsb_release -a
+```
+
+### List Mounted Drives
+```shell
+cat /etc/fstab
+```
+
+### Listi all Available Drives
+```shell
+lsblk
+```
+
+### List Loaded Drivers
+```shell
+lsmod
+```
+
 </details>
 
 <details>
   <summary><strong>Credential Hunting</strong></summary>
+
+### Get Active Processes Credentials
+```shell
+watch -n 1 "ps -aux | grep pass"
+```
+
+### Get bash history
+```shell
+env
+```
+
+### Get Environment Variables
+```shell
+env
+```
+
+### Password sniffing
+```shell
+sudo tcpdump -i lo -A | grep "pass"
+```
+
 </details>
 
 <details>
   <summary><strong>Privesc</strong></summary>
+
+### Sudo/SUID/Capabilities
+https://gtfobins.org/
+```shell
+sudo -l
+```
+```shell
+find / -perm -u=s -type f 2>/dev/null
+```
+```shell
+getcap -r / 2>/dev/null
+```
 
 </details>
