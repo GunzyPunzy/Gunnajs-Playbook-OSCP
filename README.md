@@ -850,4 +850,15 @@ find / -perm -u=s -type f 2>/dev/null
 getcap -r / 2>/dev/null
 ```
 
+### Cron Jobs
+#### System wide
+```shell
+cat /etc/crontab
+```
+
+#### Current User
+```shell
+crontab -l
+```
+
 </details>
