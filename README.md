@@ -571,6 +571,11 @@ reg query HKCU /f password /t REG_SZ /s
 <details>
   <summary><strong>Privesc</strong></summary>
 
+### winPEAS
+```ps
+winPEASx64.exe
+```
+
 ### SeImpersonatePrivilege or SeAssignPrimaryTokenPrivilege
 ```ps
 SigmaPotato.exe "net localgroup administrator <user> /add"
@@ -837,6 +842,11 @@ sudo tcpdump -i lo -A | grep "pass"
 
 <details>
   <summary><strong>Privesc</strong></summary>
+
+### linPEAS
+```shell
+./linPEAS.sh
+```
 
 ### Sudo/SUID/Capabilities
 https://gtfobins.org/
