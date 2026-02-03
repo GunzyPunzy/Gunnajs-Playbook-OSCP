@@ -655,10 +655,33 @@ netexec smb <target-ip> -u <user> -p <password> -M powershell_history
 
 <details>
   <summary><strong>Reverse Shells</strong></summary>
+
+https://www.revshells.com/
+
 </details>
 
 <details>
   <summary><strong>TTY / Shell Upgrade</strong></summary>
+
+```shell
+python -c 'import pty; pty.spawn("/bin/bash")'
+```
+```shell
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+```
+```shell
+echo 'os.system('/bin/bash')'
+```
+```shell
+/bin/sh -i
+```
+```shell
+/bin/bash -i
+```
+```shell
+perl -e 'exec "/bin/sh";'
+```
+
 </details>
 
 <details>
