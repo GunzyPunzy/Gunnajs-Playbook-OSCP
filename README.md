@@ -659,7 +659,6 @@ Get object info
 ```shell
 bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> get object <object>
 ```
-</details>
 
 ### Get writable 
 
