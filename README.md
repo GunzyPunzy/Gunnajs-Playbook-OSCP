@@ -441,11 +441,14 @@ impacket-smbserver.py <shareName> <sharePath>
 <details> <summary><strong>MSSQL</strong></summary>
 
 ### Download file
-
+```bash
 netexec mssql <target_IP> -u <user> -p <password> --get-file <share_path>/<file> <share_path>/<file>
+```
 
 ### Upload file
+```bash
 netexec mssql <target_IP> -u <user> -p <password> --put-file <share_path>/<file> <share_path>/<file>
+```
 
 </details>
 
