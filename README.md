@@ -200,6 +200,18 @@ sqlite3 <database>.db .dump
 mysql -h <IP> -u <username>
 ```
 
+#### MySQL show databases
+
+```bash
+SHOW DATABASES;
+```
+```bash
+USE <DATABASE>;
+```
+```bash
+SELECT * FROM <DATABASE>;
+```
+
 ### MSSQL login
 ```bash
 impacket-mssqlclient <username>:<password>@<IP>
