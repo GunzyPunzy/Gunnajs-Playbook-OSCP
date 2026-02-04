@@ -651,7 +651,7 @@ netexec smb <target-ip> -u <user> -p <password> -dpapi
 
 ### Dump PowerShell History
 ```shell
-netexec smb <target-ip> -u <user> -p <password> -M powershell_history
+netexec smb <target-ip> -u <user> -p <password> -M powershell_history 
 ```
   
 </details>
