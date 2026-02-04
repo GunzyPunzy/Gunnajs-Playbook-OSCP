@@ -201,13 +201,14 @@ mysql -h <IP> -u <username>
 ```
 
 #### MySQL show databases
-
 ```bash
 SHOW DATABASES;
 ```
+#### MySQL use database
 ```bash
 USE <DATABASE>;
 ```
+#### MySQL select everything from database
 ```bash
 SELECT * FROM <DATABASE>;
 ```
