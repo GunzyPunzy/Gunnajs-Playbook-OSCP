@@ -673,7 +673,7 @@ NetExec smb <target_IP> -u AD_user -p <password> --users
 
 ### Get membership
 ```shell
-bloodyAD -H <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> get membership
+bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> get membership <AD_user>
 ```
 
 Get object info
