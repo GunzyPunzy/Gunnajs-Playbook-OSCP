@@ -5,7 +5,7 @@
   <summary><strong>Labs</strong></summary>
 
 #### The following challenge labs were completed before the exam, and the notes are based on them.
-- [ ] Challenge 0 - Secura
+- [X] Challenge 0 - Secura
 - [ ] Challenge 1 - Medtech
 - [ ] Challenge 2 - Relia
 - [ ] Challenge 3 - Skylark
