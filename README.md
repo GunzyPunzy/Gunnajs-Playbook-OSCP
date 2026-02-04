@@ -27,7 +27,7 @@ nmap -n -sT -A -Pn <target>
 ### Full Scan
 
 ```bash
-nmap -n -sT -p- -T4 -Pn <target>
+nmap -n -sT -p- -T4 -A -Pn <target>
 ```
 
 ### UDP Scan
