@@ -525,6 +525,11 @@ whoami /groups
 whoami /priv
 ```
 
+### Get owner of file
+```ps
+dir /q
+```
+
 </details>
 
 <details>
