@@ -247,8 +247,8 @@ gobuster dir -u http://<target> -w <wordlist>
 gobuster dns -d <target>.com -w <subdomains_list>
 ```
 
-```bash
 ### gobuster VHOST
+```bash
 gobuster vhost -u http://<target> -w <wordlist>
 ```
 
