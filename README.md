@@ -338,7 +338,7 @@ wpscan --url http://<target> --verbose
 
 ### WPScan – Enumeration Scan
 ```bash
-wpscan --url http://<target> --enumerate vp,u,vt,tt --follow-redirection --verbose
+wpscan --url http://<target> --enumerate vp,u,vt,tt --verbose
 ```
 
 ## Joomla
