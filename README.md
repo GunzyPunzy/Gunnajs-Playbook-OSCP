@@ -801,6 +801,10 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
   ```shell
   impacket-secretsdump -system SYSTEM -sam SAM local
   ```
+  ### Get hashes from SYSTEM and SECURITY
+  ```shell
+  impacket-secretsdump LOCAL -system SYSTEM -sam SAM -security SECURITY
+  ```
 
 </details>
 
