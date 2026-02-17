@@ -454,7 +454,7 @@ download C:\\<share_path>\\<file>/<share_path>/<file>
 
 ### Upload file
 ```bash
-upload /<share_path/file.exe C:\\<share_path>\\<file>
+upload /<share_path/file.exe <file_name>
 ```
 
 </details>
