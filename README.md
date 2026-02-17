@@ -650,8 +650,13 @@ icacls <path>
 ```
 
 #### Stop Service
-```ps
-stop-service GPGOrchestrator
+#### cmd
+```cmd
+stop-service <Service>
+```
+#### Powershell
+```cmd
+sc.exe stop <Service>
 ```
 
 #### Replace with a Shell
@@ -660,8 +665,13 @@ copy shell.exe "C:\Program Files\<path>\<Service>.exe"
 ```
 
 #### Start the service
-```ps
+#### cmd
+```cmd
 start-service <Service>
+```
+#### PowerShell
+```ps
+sc.exe start <Service>
 ```
 
 #### Scheduled tasks
