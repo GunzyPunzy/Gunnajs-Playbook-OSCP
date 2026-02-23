@@ -90,6 +90,14 @@ ftp <IP>
 hydra -L users.txt -P passwords.txt <IP> ftp
 ```
 
+### Crack SSH passphrase
+```bash
+python /usr/share/john/ssh2john.py <ssh_key> > <ssh_key_hash>
+```
+```bash
+john --wordlist=<wordlist> <ssh_key_hash>
+```
+
 </details>
 
 <details> <summary><strong>SSH</strong></summary>
