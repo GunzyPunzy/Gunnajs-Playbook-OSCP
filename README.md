@@ -41,6 +41,12 @@ nmap -n -sU --top-ports 1000 <target>
 nmap --script vuln -p <ports> <target>
 ```
 
+### proxychains 
+
+```bash
+proxychains -q nmap -sT -Pn <target>
+```
+
 </details>
 
 <details>
