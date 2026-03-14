@@ -440,6 +440,14 @@ python3 -m http.server 80
 
 </details>
 
+<details> <summary><strong>SSH</strong></summary>
+
+```shell
+netexec ssh <ip> -u <username> -p <password> --get-file /share_path/<file> <file>
+```
+
+</details>
+
 <details> <summary><strong>FTP</strong></summary>
 
 ### Download file
