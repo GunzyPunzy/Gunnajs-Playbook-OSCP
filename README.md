@@ -328,6 +328,7 @@ admin' or '1'='1
 ") or ("1"="1"#
 ) or '1`='1-
 ```
+</details>
 
 <details>
   <summary><strong>GitHub recon</strong></summary>
