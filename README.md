@@ -568,7 +568,7 @@ john --wordlist=<wordlist> <database>.txt
 ```
 </details>
 
-<details> <summary><strong>Crack zip file/strong></summary>
+<details> <summary><strong>Crack zip file</strong></summary>
 
 ```bash
 zip2john <file>.zip > <file>.txt
