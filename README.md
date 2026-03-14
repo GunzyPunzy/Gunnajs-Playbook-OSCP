@@ -550,7 +550,7 @@ hashcat -m <mode> -a 3 <hash> <passlist> -o <cracked>
 <details> <summary><strong>Crack SSH passphrase</strong></summary>
 
 ```bash
-python /usr/share/john/ssh2john.py <ssh_key> > <ssh_key_hash>
+ssh2john <ssh_key> > <ssh_key_hash>
 ```
 ```bash
 john --wordlist=<wordlist> <ssh_key_hash>
@@ -558,6 +558,17 @@ john --wordlist=<wordlist> <ssh_key_hash>
 </details>
 
 <details> <summary><strong>Crack Keepass Database (kbdx)</strong></summary>
+
+```bash
+keepass2john <database>.kdbx > <database>.txt
+```
+
+```bash
+john --wordlist=<wordlist> <database>.txt
+```
+</details>
+
+<details> <summary><strong>Crack zip file/strong></summary>
 
 
 </details>
