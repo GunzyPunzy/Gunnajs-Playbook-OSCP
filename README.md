@@ -157,7 +157,7 @@ snmpwalk -v <VERSION_SNMP> -c <COMM_STRING> <IP>
 
 ### Extend commands (password reset)
 ```bash
-snmpwalk -v X -c public <IP> NET-SNMP-EXTEND-MIB::nsExtendOutputFull
+snmpwalk -v <VERSION_SNMP> -c <COMM_STRING> <IP> NET-SNMP-EXTEND-MIB::nsExtendOutputFull
 ```
 
 </details>
