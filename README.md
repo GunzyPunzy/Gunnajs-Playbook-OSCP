@@ -7,7 +7,7 @@
 #### The following challenge labs were completed before the exam, and the notes are based on them.
 - [X] Challenge 0 - Secura
 - [X] Challenge 1 - Medtech
-- [ ] Challenge 4 - OSCP A
+- [X] Challenge 4 - OSCP A
 - [ ] Challenge 5 - OSCP B
 - [ ] Challenge 6 - OSCP C
 </details>
