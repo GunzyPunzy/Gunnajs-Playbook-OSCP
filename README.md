@@ -351,11 +351,20 @@ EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE;
 <details>
   <summary><strong>GitHub recon</strong></summary>
 
-#### .git file download
+### .git file download
 ```bash
 python3 git_dumper.py http://<ip>.com/.git /<output_folder>
 ```
 
+### Show branch/commit map
+```bash
+git log --graph --oneline --decorate --all
+```
+
+### Display log of commit
+```bash
+git show <commit-id>
+```
 </details>
 
 <details> <summary><strong>CMS</strong></summary>
