@@ -1070,6 +1070,9 @@ find / -perm -u=s -type f 2>/dev/null
 ```shell
 getcap -r / 2>/dev/null
 ```
+```shell
+echo $PATH
+```
 
 ### Cron Jobs
 #### System wide
