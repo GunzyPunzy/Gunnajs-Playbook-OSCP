@@ -746,6 +746,14 @@ winPEASx64.exe
 icacls <path>
 ```
 
+### Check services
+```cmd
+sc query type= service   
+```
+```ps
+Get-Service   
+```
+
 #### Stop Service
 #### cmd
 ```cmd
