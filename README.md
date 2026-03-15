@@ -1087,4 +1087,7 @@ crontab -l
 grep "CRON" /var/log/syslog
 ```
 
+#### Tar wildcard file compressing_escalation (cd /home/andre/backup && tar -zcf /tmp/andre_backup.tar.gz *)
+https://medium.com/@althubianymalek/linux-privilege-escalation-using-tar-wildcards-a-step-by-step-guide-55771aae063f
+
 </details>
