@@ -629,6 +629,14 @@ evil-winrm -i <target_IP> -u <user> -p <password>
 <details>
   <summary><strong>Enumeration</strong></summary>
 
+### Read files
+```ps
+type <file>
+```
+```ps
+more <file>
+```
+
 ### Get groups
 ```ps
 whoami /groups
