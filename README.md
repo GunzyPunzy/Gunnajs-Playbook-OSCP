@@ -8,8 +8,8 @@
 - [X] Challenge 0 - Secura
 - [X] Challenge 1 - Medtech
 - [X] Challenge 4 - OSCP A
-- [ ] Challenge 5 - OSCP B
-- [ ] Challenge 6 - OSCP C
+- [X] Challenge 5 - OSCP B
+- [X] Challenge 6 - OSCP C
 </details>
 
 # Reconnaissance
@@ -1101,7 +1101,9 @@ echo $PATH
 ```shell
 cat /etc/crontab
 ```
-
+```shell
+ls -lah /etc/cron*
+```
 #### Current User
 ```shell
 crontab -l
