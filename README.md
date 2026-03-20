@@ -1114,7 +1114,7 @@ crontab -l
 grep "CRON" /var/log/syslog
 ```
 
-#### Writable /etc/passwd
+### Writable /etc/passwd
 #### Make hash out of a password
 ```shell
 openssl passwd Syp9393
